@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: rgba(233, 235, 239, 0.152);
+  /* background-color: rgba(250, 235, 215, 0.256); */
+  font-size: 30px;
+}
+
+.header-title {
+  text-align: center;
+  margin: 10px;
+  margin: 10px;
+}
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 200;
+  background-color: rgba(30, 105, 211, 0.233);
+  text-align: center;
+  padding: 20px;
+  margin: 50px 0px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 10px;
+}
+
+.nav {
+  background-image: url(./images/mechanical-parts.avif);
+  background-color: rgba(54, 54, 54, 0.578);
+  background-blend-mode: multiply;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 250px;
+  padding: 20px;
+  align-items: flex-end;
+  justify-content: space-evenly;
+}
+
+.nav a {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.nav a:hover {
+  color: rgb(30, 105, 211);
+  background-color: rgba(54, 54, 54, 0.658);
+  border-radius: 10px;
+}
+
+.jump-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: rgba(54, 54, 54, 0.233);
+  color: rgb(30, 105, 211);
+  padding: 5px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.jump-to-top:hover {
+  background-color: rgba(30, 105, 211, 0.233);
+  color: rgb(54, 54, 54);
+}
+
+.text-home > p {
+  padding: 0px 50px;
+  text-align: justify;
+}
+/* PROJECTS CONTAINER */
+
+#id-projects > p {
+  padding: 0px 50px 20px;
+  text-align: justify;
+}
+.projects-container {
+  display: flex;
+  min-height: 200px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+.projects-child {
+  height: 300px;
+  padding: 10px;
+}
+
+/* 2D DRAWINGS CONTAINER  */
+
+.drawings-container {
+  display: flex;
+  min-height: 400px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.drawings {
+  width: 600px;
+  padding: 10px;
+}
+/* 3D DESIGNS CONTAINER  */
+
+.designs-container {
+  display: flex;
+  min-height: 400px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  align-items: center;
+}
+
+.designs-child {
+  width: 400px;
+  padding: 10px;
+}
+
+/* SIMULATIONS CONTAINER  */
+.simulations-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-height: 300px;
+}
+.simulations-child {
+  width: 400px;
+  padding: 20px;
+}
+#id-simulations > p {
+  padding: 0px 50px;
+  text-align: justify;
+}
+#id-simulations > ul {
+  padding: 0px 80px;
+  text-align: justify;
+}
+
+/* PHOTO CAPTIONS */
+.description {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 0;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+  font-size: 20px;
+}
+
+#id-contact > p {
+  padding: 0px 50px;
+}
+/* NAVIGATION BOTTOM  */
+#id-icons {
+  font-size: 100px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(54, 54, 54, 0.37);
+  padding: 30px;
+}
+
+.fa-solid,
+.fa-brands {
+  color: rgb(30, 105, 211);
+}
